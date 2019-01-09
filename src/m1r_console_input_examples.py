@@ -15,15 +15,15 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #
 #   1. Write a line of code that would input an INTEGER from the
 #      console, storing the integer in a variable called 'x'.
-#      Write your line here:
+#      Write your line here: x = int(input('Input an integer: '))
 #
 #   2. Write a line of code that would input an FLOAT from the console,
 #      storing the float in a variable called 'x'.
-#      Write your line here:
+#      Write your line here: x = float(input('Input a float: '))
 #
 #   3. Write a line of code that would input an STRING from the console,
 #      storing the string in a variable called 'x'.
-#      Write your line here:
+#      Write your line here: x = input('Input anything: '))
 #
 #   4. What happens if you (the user) enter something OTHER than a
 #      single integer (e.g., you enter
@@ -35,10 +35,10 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #      or
 #        nothing at all (just press the Enter key)
 #      -- try them!) when running the   input_an_integer   example?
-#      Put your answer here:
-#
+#      Put your answer here: it can't convert the non integer to an integer and it crashes
+#       invalid literal error
 #   After you have PUT YOUR ANSWERS IN THIS COMMENT as described above,
-#     a. Find someone who has had HER answer checked.
+#     a. Find someone who has had HER answer checked
 #        Ask her to check YOUR answers to the above.
 #     b. Change the above TO DO to DONE.
 #
